@@ -1,0 +1,24 @@
+package udemy.exercicios.fundamentos;
+
+public class conversaoNumeroString {
+	
+	public static void main(String[] args) {
+		
+		//Maneira de converter numero em string
+		
+		Integer num1 = 10000;
+		System.out.println(num1.toString().length());
+		
+		int num2 = 10000;
+		System.out.println(Integer.toString(num2));
+		
+		System.out.println(("" + num1).length());
+		System.out.println(("" + num2).length());
+		
+
+		
+	}
+	
+
+}
+ 
